@@ -21,4 +21,4 @@ jobs:
         run: pip install -r req.txt
 
       - name: Run tests
-        run: pytest test_app.py -v
+        run: python -m pytest test_app.py -v
